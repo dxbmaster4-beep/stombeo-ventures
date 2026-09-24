@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Serene Yoga Studio | Coming Soon</title>
+  <meta name="description" content="Serene Yoga Studio — mindful movement, breath and balance. Our new yoga studio is coming soon." />
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --cream: #f8f5ee;
+      --sage: #7d927f;
+      --dark-sage: #3f5547;
+      --text: #26342c;
+      --soft: #e7ede5;
+      --white: #ffffff;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      width: 100%;
+      padding: 28px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--dark-sage);
+    }
+
+    .tag {
+      font-size: 0.8rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--sage);
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      padding: 50px 7% 80px;
+    }
+
+    .hero {
+      width: 100%;
+      max-width: 1150px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 20px;
+      padding: 8px 14px;
+      border-radius: 50px;
+      background: var(--soft);
+      color: var(--dark-sage);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(3rem, 7vw, 6.2rem);
+      font-weight: 400;
+      line-height: 0.98;
+      color: var(--dark-sage);
+      margin-bottom: 24px;
+    }
+
+    .intro {
+      max-width: 600px;
+      font-size: 1.12rem;
+      color: #59675e;
+      margin-bottom: 30px;
+    }
+
+    .coming {
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--dark-sage);
+      margin-bottom: 14px;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 26px;
+    }
+
+    .feature {
+      padding: 10px 15px;
+      border: 1px solid #d5ded5;
+      border-radius: 50px;
+      color: #536158;
+      background: rgba(255,255,255,0.5);
+      font-size: 0.9rem;
+    }
+
+    .visual {
+      min-height: 500px;
+      border-radius: 42% 42% 12% 12%;
+      background:
+        radial-gradient(circle at 50% 32%, rgba(255,255,255,0.8) 0 8%, transparent 8.5%),
+        linear-gradient(145deg, #dfe8de, #b9cbbb);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .sun {
+      width: 260px;
+      height: 260px;
+      border-radius: 50%;
+      background: rgba(248,245,238,0.72);
+      position: absolute;
+      top: 70px;
+      right: 45px;
+    }
+
+    .circle {
+      width: 180px;
+      height: 180px;
+      border: 2px solid rgba(63,85,71,0.35);
+      border-radius: 50%;
+      position: absolute;
+      bottom: 60px;
+      left: 45px;
+    }
+
+    .pose {
+      position: relative;
+      z-index: 2;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--dark-sage);
+      font-size: 2rem;
+      text-align: center;
+      max-width: 260px;
+    }
+
+    .pose span {
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.78rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-top: 12px;
+    }
+
+    footer {
+      padding: 22px 7%;
+      text-align: center;
+      color: #718078;
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 800px) {
+      header {
+        padding: 22px 6%;
+      }
+
+      main {
+        padding: 35px 6% 55px;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+        gap: 45px;
+      }
+
+      .visual {
+        min-height: 380px;
+      }
+
+      .tag {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+
+    <header>
+      <div class="logo">SERENE YOGA</div>
+      <div class="tag">Mind • Body • Breath</div>
+    </header>
+
+    <main>
+      <section class="hero">
+
+        <div class="content">
+          <div class="eyebrow">A new space for wellness</div>
+
+          <h1>Find your<br />inner balance.</h1>
+
+          <p class="intro">
+            A calm space for yoga, mindful movement and conscious breathing.
+            We are creating a welcoming studio where every body can slow down,
+            reconnect and grow.
+          </p>
+
+          <div class="coming">Our studio is coming soon</div>
+
+          <p>
+            Stay tuned for class schedules, workshops and our opening date.
+          </p>
+
+          <div class="features">
+            <div class="feature">Hatha Yoga</div>
+            <div class="feature">Vinyasa Flow</div>
+            <div class="feature">Breathwork</div>
+            <div class="feature">Meditation</div>
+          </div>
+        </div>
+
+        <div class="visual" aria-label="Yoga studio coming soon">
+          <div class="sun"></div>
+          <div class="circle"></div>
+          <div class="pose">
+            Breathe. Move. Be.
+            <span>Serene Yoga Studio</span>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+    <footer>
+      © 2026 Serene Yoga Studio · More details coming soon
+    </footer>
+
+  </div>
+</body>
+</html>
